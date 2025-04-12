@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mad3_lottieangel"
+    namespace = "com.example.madprojectlottieangel"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.mad3_lottieangel"
+        applicationId = "com.example.madprojectlottieangel"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -32,7 +32,7 @@ android {
 }
 
 dependencies {
-
+    implementation("com.airbnb.android:lottie:6.1.0")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
