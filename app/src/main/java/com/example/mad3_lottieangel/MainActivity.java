@@ -2,6 +2,8 @@ package com.example.mad3_lottieangel;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.madprojectlottieangel.R;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
